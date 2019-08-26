@@ -1,0 +1,22 @@
+{
+	"siteData": {
+		"Contact Info": {
+			"First Name": "Eric",
+			"Last Name": "Newman",
+			"Phone": "5076966278",
+			"Email": "googlnewman@gmail.com"
+		},
+		"Job History": {
+			"IBM": "Anna",
+			"Land O'Lakes": "Smith",
+			"Wincraft": "Anna",
+			"Lewiston Altura High School": "Smith",
+			"Fastenal": "Anna"
+		},
+		"Education": {
+			"High School Diploma": "Peter",
+			"Bachelor of Science Teaching": "Jon",
+			"Bachelor of Science Computer Science": "jake"
+		}
+	}
+}
