@@ -8,7 +8,7 @@ import {Router, RouterModule} from "@angular/router";
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(private route: Router) { }
 
   ngOnInit(): void {
   }
