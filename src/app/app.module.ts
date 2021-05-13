@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { NgParticlesModule } from 'ng-particles';
 
 @NgModule({
   declarations: [
-    AppComponent, HomeComponent, ProjectsComponent, NavbarComponent
+    AppComponent, HomeComponent, ProjectsComponent, NavbarComponent, FooterComponent
   ],
   imports: [
-    BrowserModule, AppRoutingModule
+    BrowserModule, AppRoutingModule, NgParticlesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

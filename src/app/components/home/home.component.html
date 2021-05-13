@@ -1,179 +1,22 @@
-<!DOCTYPE html>
-<!-- Template by Quackit.com -->
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <title>Portfolio, Eric Newman</title>
-
-    <!-- Bootstrap Core CSS -->
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-
+<head>  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<!-- <app-navbar></app-navbar> to do - implement cool navbar as display option -->
 
-    <!-- Navigation -->
-    <app-navbar></app-navbar>
-
-    <!-- Content -->
-    <div class="container">
-
-        <!-- Heading -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Portfolio
-                    <small>Recent Work</small>
-                </h1>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <!-- <img class="img-responsive" src="http://lorempixel.com/700/400/nature/1" alt=""> -->
-                </a>
-                <h3>
-                    <a href="#">Project Title</a>
-                </h3>
-                <p>Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so sixth gathering fifth that man fowl made.</p>
-            </div>
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <!-- <img class="img-responsive" src="http://lorempixel.com/700/400/nature/2" alt=""> -->
-                </a>
-                <h3>
-                    <a href="#">Project Title</a>
-                </h3>
-                <p>Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so sixth gathering fifth that man fowl made.</p>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <!-- <img class="img-responsive" src="http://lorempixel.com/700/400/nature/3" alt=""> -->
-                </a>
-                <h3>
-                    <a href="#">Project Title</a>
-                </h3>
-                <p>Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so sixth gathering fifth that man fowl made.</p>
-            </div>
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <!-- <img class="img-responsive" src="http://lorempixel.com/700/400/nature/4" alt=""> -->
-                </a>
-                <h3>
-                    <a href="#">Project Title</a>
-                </h3>
-                <p>Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so sixth gathering fifth that man fowl made.</p>
-            </div>
-        </div>
+<ng-particles [id]="id" [options]="particlesOptions" (particlesLoaded)="particlesLoaded($event)" (particlesInit)="particlesInit($event)">
 
 
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <!-- <img class="img-responsive" src="http://lorempixel.com/700/400/nature/5" alt=""> -->
-                </a>
-                <h3>
-                    <a href="#">Project Title</a>
-                </h3>
-                <p>Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so sixth gathering fifth that man fowl made.</p>
-            </div>
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <!-- <img class="img-responsive" src="http://lorempixel.com/700/400/nature/6" alt=""> -->
-                </a>
-                <h3>
-                    <a href="#">Project Title</a>
-                </h3>
-                <p>Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so sixth gathering fifth that man fowl made.</p>
-            </div>
-        </div>
-        <!-- Pagination -->
-        <div class="row text-center">
-            <div class="col-lg-12">
-                <ul class="pagination">
-                    <li>
-                        <a href="#">&laquo;</a>
-                    </li>
-                    <li class="active">
-                        <a href="#">1</a>
-                    </li>
-                    <li>
-                        <a href="#">2</a>
-                    </li>
-                    <li>
-                        <a href="#">3</a>
-                    </li>
-                    <li>
-                        <a href="#">4</a>
-                    </li>
-                    <li>
-                        <a href="#">5</a>
-                    </li>
-                    <li>
-                        <a href="#">&raquo;</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!-- /.row -->
+</ng-particles>
+<h1 style="font-family: 'Source Code Pro', monospace;"> 
+  <a href="https://www.hackerrank.com/googlnewman" style="color: white;">
+    <img href="https://www.hackerrank.com/googlnewman" src="assets/hackerrank.png" style="width: 1.25em; height: 1.25em; margin-right: 2%;" alt="hackerrank"/>
+  </a>
+    Eric Newman     <a href="https://github.com/enewmanMN/" style="color: white;"><i class="fab fa-github" style=" margin-left: 2%;"></i></a>
+  </h1>
+<!-- or -->
 
-    </div>
-    <!-- /.container -->
-	
-	<footer>
-		<div class="footer-blurb">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-4 footer-blurb-item">
-						<!-- <img class="img-circle" src="http://lorempixel.com/100/100/people/3" alt="" width="100" height="100"> -->
-						<h3>My Stuff</h3>
-						<p>Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so sixth gathering fifth that man fowl made.</p>
-						<p><a class="btn btn-primary" href="#">More Stuff</a></p>
-					</div>
-					<div class="col-sm-4 footer-blurb-item">
-						<!-- <img class="img-circle" src="http://lorempixel.com/100/100/people/1" alt="" width="100" height="100"> -->
-						<h3>Your Stuff</h3>
-						<p>Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so sixth gathering fifth that man fowl made.</p>
-						<p><a class="btn btn-primary" href="#">More Stuff</a></p>
-					</div>
-					<div class="col-sm-4 footer-blurb-item">
-						<!-- <img class="img-circle" src="http://lorempixel.com/100/100/people/2" alt="" width="100" height="100"> -->
-						<h3>Our Stuff</h3>
-						<p>Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so sixth gathering fifth that man fowl made.</p>
-						<p><a class="btn btn-primary" href="#">More Stuff</a></p>
-					</div>
-
-				</div>
-				<!-- /.row -->	
-			</div>
-        </div>
-        
-        <div class="copyright">
-        	<div class="container">
-        		<p>Copyright &copy; Example.com 2015</p>
-        	</div>
-        </div>
-	</footer>
-
-	
-    <!-- jQuery -->
-    <script src="js/jquery-1.11.3.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-</body>
-
+<!-- <ng-particles [id]="id" [url]="particlesUrl" (particlesLoaded)="particlesLoaded($event)" (particlesInit)="particlesInit($event)"></ng-particles> -->
 </html>
