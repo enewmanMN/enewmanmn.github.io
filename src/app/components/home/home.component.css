@@ -25,3 +25,17 @@ h1 {
 img {
   vertical-align: middle;
   border-style: none; }
+ 
+.tsparticles-canvas-el {
+  height: auto;
+  width: auto;
+}
+
+  #tsparticles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: auto;
+  }
+  
